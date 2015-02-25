@@ -950,16 +950,40 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	#wheat {
-		background: url('images/fields.jpg'), url('../images/fields.jpg');
+	#gmo {
+		background: url('images/gmos.jpg'), url('../images/gmos.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top center, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
 
-	#city {
-		background: url('images/cityscape.jpg'), url('../images/cityscape.jpg');
+	#flag {
+		background: url('images/flag.jpg'), url('../images/flag.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top center, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+	#genes {
+		background: url('images/DNA.jpg'), url('../images/DNA.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top center, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+	#church {
+		background: url('images/methodist.jpg'), url('../images/methodist.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top center, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+	#remorse {
+		background: url('images/remorse.jpg'), url('../images/remorse.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top center, bottom center;
