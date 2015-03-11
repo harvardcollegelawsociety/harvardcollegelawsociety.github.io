@@ -812,11 +812,27 @@
 		position: absolute;
 		left: 2em;
 		top: 1em;
-		height: 3em;
+		height: 4em;
 		line-height: 3em;
+		padding: 0 2em 0 0;
+		margin-right: 4em;
+	}
+
+		#logo a {
+			font-size: 1.25em;
+		}
+
+	#logotext {
+		position: absolute;
+		left: 6em;
+		top: 1em;
+		height: 4em;
+		line-height: 3em;
+		padding: 0 2em 0 0;
+		margin-right: 4em;
 	}
 	
-		#logo a {
+		#logotext a {
 			font-size: 1.25em;
 		}
 	
@@ -824,8 +840,8 @@
 		position: absolute;
 		right: 2em;
 		top: 0;
-		height: 3em;
-		line-height: 3em;
+		height: 4em;
+		line-height: 4em;
 	}
 
 		#nav ul {
