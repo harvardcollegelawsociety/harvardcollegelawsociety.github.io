@@ -1156,7 +1156,7 @@
 	
 		.poptrox-popup .loader {
 			width: 30px;
-			height: px;
+			height: 30px;
 			background: url('images/loader.gif');
 			position: absolute;
 			top: 50%;
@@ -1353,31 +1353,31 @@
   background-position:center;
 }
 
-.caption {
-	position: absolute;
-	background: #fff;
-	top: 400px;
-	width: 800px;
-	height: absolute;
-	text-align: center;
-	font-color: #000;
-	font-size: 1.2em;
-	padding: 1.5em 1.5em 1.5em 1.5em;
-	opacity: .9;
-}
+	.capt {
+		position: absolute;
+		background: #fff;
+		top: 400px;
+		width: 800px;
+		height: absolute;
+		text-align: center;
+		font-color: #000;
+		font-size: 1.2em;
+		padding: 1.5em 1.5em 1.5em 1.5em;
+		opacity: .9;
+	}
 
-.photocred {
-	position: absolute;
-	background: #fff;
-	top: 580px;
-	width: 800px;
-	font-style: italic;
-	height: absolute;
-	text-align: right;
-	font-color: #000;
-	font-size: 0.8em;
-	opacity: .9;
-}
+	.photocred {
+		position: absolute;
+		background: #fff;
+		top: 580px;
+		width: 800px;
+		font-style: italic;
+		height: absolute;
+		text-align: right;
+		font-color: #000;
+		font-size: 0.8em;
+		opacity: .9;
+	}
 
 
 #dots {
