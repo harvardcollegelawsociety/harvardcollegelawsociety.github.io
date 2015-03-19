@@ -926,14 +926,6 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	#intro4 {
-		background: url('images/laptop.jpg'), url('../images/laptop.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
 	#globe {
 		background: url('images/globe.jpg'), url('../images/globe.jpg');
 		background-size: 256px 256px, cover;
@@ -966,40 +958,8 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	#gmo {
-		background: url('images/gmos.jpg'), url('../images/gmos.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
-	#flag {
-		background: url('images/flag.jpg'), url('../images/flag.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
 	#genes {
 		background: url('images/DNA.jpg'), url('../images/DNA.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
-	#church {
-		background: url('images/methodist.jpg'), url('../images/methodist.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
-	#remorse {
-		background: url('images/remorse.jpg'), url('../images/remorse.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top center, bottom center;
@@ -1355,6 +1315,108 @@
 
 	}
 
+/*********************************************************************************/
+/* Carousel Gallery                                                              */
+/*********************************************************************************/
+
+*{
+  font-family: 'Avenir';
+  font-size: 12px;
+  background: #FFFFF;
+}
+
+.container {
+  width:700px;
+  top: 40px;
+  left: 300px;
+  text-align: center;
+}
+
+#slider {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  padding-top: 60px;
+  padding-left: 30px;
+  width: 1000px;
+  height: 650px;
+}
+
+#slider img {
+  position: absolute;
+  left: 30px;
+  width:800px;
+  height:500px;
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top center, bottom center;
+  background-position:center;
+}
+
+.caption {
+	position: absolute;
+	background: #fff;
+	top: 400px;
+	width: 800px;
+	height: absolute;
+	text-align: center;
+	font-color: #000;
+	font-size: 1.2em;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	opacity: .9;
+}
+
+.photocred {
+	position: absolute;
+	background: #fff;
+	top: 580px;
+	width: 800px;
+	font-style: italic;
+	height: absolute;
+	text-align: right;
+	font-color: #000;
+	font-size: 0.8em;
+	opacity: .9;
+}
+
+
+#dots {
+  
+  padding-left: 100px;
+  text-align: center;
+}
+
+#dots li {
+  display:inline-block;
+  border-radius:10px;
+  width:10px;
+  height:10px;
+  margin: 0 5px;
+  border:1px solid #000000;
+  cursor:pointer;
+}
+
+#dots li.active {
+  background:#000000;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+.sidebar {
+  padding-top: 60px;
+  padding-left: 80px;
+  position: fixed;
+}
+
+.sidebar p {
+  font-weight: 100;
+  line-height: 0px;
+  font-size: .8em;
+  color: black;
+  text-align: left;
+}
 
 
 
