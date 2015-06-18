@@ -105,7 +105,6 @@
 	}
 
 	a {
-		color: black;
 
 		-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -471,69 +470,30 @@
 		input[type="reset"],
 		.button {
 			background-color: #CCC;
-			border: 0;
+			font-family: 'Baskerville';
+			font-weight: 100;
+			text-decoration: none;
 			border-radius: 2em;
 			color: #fff;
 			cursor: pointer;
 			display: inline-block;
-			height: 3em;
-			line-height: 3em;
-			outline: 0;
-			padding: 0 2em 0 2em;
-			position: relative;
+			padding: 1em 2em 1em 2em;
+			position: center;
 			text-align: center;
-			font-size: 1em;
+			font-size: 0.8em;
 			letter-spacing: 1px;
 
-			-moz-appearance: none;
-			-webkit-appearance: none;
-			-o-appearance: none;
-			-ms-appearance: none;
-			appearance: none;
-
-			-moz-transition: all 0.3s ease-in-out;
-			-webkit-transition: all 0.3s ease-in-out;
-			-o-transition: all 0.3s ease-in-out;
-			-ms-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.1s ease-in-out;
+			-webkit-transition: all 0.1s ease-in-out;
+			-o-transition: all 0.1s ease-in-out;
+			-ms-transition: all 0.1s ease-in-out;
+			transition: all 0.1s ease-in-out;
 		}
-
-			.button.down {
-				width: 4em;
-				height: 4em;
-				line-height: 4.5em;
-				padding: 0;
-				background-image: url('images/dark-arrow.svg');
-				background-position: center center;
-				background-repeat: no-repeat;
-				text-indent: -10em;
-				overflow: hidden;
-			}
-			
-				.button.down.anchored {
-					bottom: 0;
-					border-bottom: 0;
-					border-radius: 3em 3em 0 0;
-					height: 4.5em;
-					margin-left: -2.5em;
-				}
-			
-			.button.anchored {
-				position: absolute;
-				left: 50%;
-			}
 			
 			input[type="button"]:hover,
 			input[type="submit"]:hover,
 			input[type="reset"]:hover,
 			.button:hover {
-				background-color: #9B0000;
-			}
-			
-			input[type="button"]:active,
-			input[type="submit"]:active,
-			input[type="reset"]:active,
-			.button:active {
 				background-color: #9B0000;
 			}
 
@@ -551,10 +511,6 @@
 				input[type="reset"].style2:hover,
 				.button.style2:hover {
 					background-color: rgba(145,146,147,0.035);
-				}
-				
-				.button.style2.down {
-					background-image: url('images/arrow.svg');
 				}
 
 	/* Box */
@@ -733,29 +689,6 @@
 					-o-transform: translateZ(0);
 					-ms-transform: translateZ(0);
 					transform: translateZ(0);
-				}
-
-	/* Dark */
-
-		.dark {
-			color: #fff;
-		}
-
-			.dark a {
-				color: #fff;
-			}
-		
-			.dark .button.style2 {
-				border-color: inherit;
-				background-color: rgba(64,64,64,0.05);
-			}
-
-				.dark .button.style2:hover {
-					background-color: rgba(255,255,255,0.1);
-				}
-				
-				.dark .button.style2.down {
-					background-image: url('images/dark-arrow.svg');
 				}
 		
 /*********************************************************************************/
@@ -1309,10 +1242,6 @@
 			body.touch .poptrox-popup .closer {
 				opacity: 1.0 !important;
 			}
-/* Social Sharing */
-	.twitter-share-button {
-
-	}
 
 /*********************************************************************************/
 /* Carousel Gallery                                                              */
