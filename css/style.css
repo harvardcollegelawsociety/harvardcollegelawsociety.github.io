@@ -7,7 +7,6 @@
 /*********************************************************************************/
 
 	body {
-		background: #fff;
 	}
 
 		body.is-loading *
@@ -1337,14 +1336,12 @@
   list-style: none;
   position: relative;
   padding-top: 60px;
-  padding-left: 30px;
   width: 1000px;
   height: 650px;
 }
 
 #slider img {
   position: absolute;
-  left: 30px;
   width:800px;
   height:500px;
   background-size: 256px 256px, cover;
