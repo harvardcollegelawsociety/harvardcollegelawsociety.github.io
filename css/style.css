@@ -7,6 +7,7 @@
 /*********************************************************************************/
 
 	body {
+		text-decoration: none;
 	}
 
 		body.is-loading *
@@ -65,6 +66,7 @@
 		line-height: 2em;
 		color: black;
 		text-align: center;
+		text-decoration: none;
 	}
 
 	h4 {
@@ -106,11 +108,11 @@
 
 	a {
 
-		-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+		-o-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+		transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
 	}
 
 	sub {
@@ -142,6 +144,7 @@
 		font-size: .8em;
 		color: black;
 		text-align: justify;
+		text-decoration: none;
 	}
 
 		footer li {
@@ -150,11 +153,14 @@
 		font-weight: 100;
 		font-size: .8em;
 		color: white;
+		text-decoration: none;
+
 		}
 
 
 	header {
 		margin-bottom: 1em;
+		text-decoration: none;
 	}
 	
 		header p {
@@ -250,6 +256,7 @@
 	/* List */
 
 		ul {
+			text-decoration: none;
 		}
 
 			ul.default {
@@ -262,7 +269,7 @@
 				}		
 
 			ul.icons {
-				cursor: default;
+				cursor: pointer;
 			}	
 			
 				ul.icons li {
@@ -279,7 +286,7 @@
 					}
 
 			ul.menu {
-				cursor: default;
+				cursor: pointer;
 			}
 			
 				ul.menu li {
@@ -322,7 +329,7 @@
 			
 				ul.actions li {
 					display: inline-block;
-					margin: 0 0 0 0.5em;
+					margin: 0 0 0 0;
 				}
 				
 				ul.actions li:first-child {
@@ -372,11 +379,11 @@
 				-ms-appearance: none;
 				appearance: none;
 
-				-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+				-moz-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+				-webkit-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+				-o-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+				-ms-transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
+				transition: all 0.1s ease-in-out, color 0.2s ease-in-out;
 			}
 
 				form input[type="text"]:focus,
@@ -470,6 +477,7 @@
 		input[type="reset"],
 		.button {
 			background-color: #CCC;
+			border: 0;
 			font-family: 'Baskerville';
 			font-weight: 100;
 			text-decoration: none;
@@ -481,7 +489,7 @@
 			position: center;
 			text-align: center;
 			font-size: 0.8em;
-			letter-spacing: 1px;
+			letter-spacing: 0.1em;
 
 			-moz-transition: all 0.1s ease-in-out;
 			-webkit-transition: all 0.1s ease-in-out;
@@ -519,6 +527,7 @@
 			background: #ffffff;
 			color: #000;
 			padding: 3em;
+			text-decoration: none;
 		}
 		
 			.box.style1 {
@@ -557,7 +566,7 @@
 					position: center;
 					opacity: .8;
 
-					-moz-transition: all 2s ease;
+					-moz-transition: all 1s ease;
 					-webkit-transition: all 1s ease;
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
@@ -568,13 +577,6 @@
 					-o-transform: translateZ(0);
 					-ms-transform: translateZ(0);
 					transform: translateZ(0);
-				}
-				
-			.main.style1.inactive {
-			}
-			
-				.main.style1.inactive .content {
-					opacity: 0;
 				}
 		
 			.main.style2 {
@@ -606,26 +608,6 @@
 						left: 0;
 					}
 
-				.main.style2.right {
-				}
-
-					.main.style2.right .content {
-						left: 80%;
-					}
-
-				.main.style2.inactive {
-				}
-
-					.main.style2.inactive .content {
-					}
-
-						.main.style2.inactive.left .content {
-							left: -35%;
-						}
-
-						.main.style2.inactive.right .content {
-							left: 100%;
-						}
 		
 			.main.style3 {
 				text-align: center;
@@ -655,8 +637,9 @@
 				.main.style4 .content {
 					opacity: .8;
 					position: center;
+					text-decoration: none;
 
-					-moz-transition: all 2s ease;
+					-moz-transition: all 1s ease;
 					-webkit-transition: all 1s ease;
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
@@ -678,7 +661,7 @@
 					opacity: 1.0;
 					position: center;
 
-					-moz-transition: all 2s ease;
+					-moz-transition: all 1s ease;
 					-webkit-transition: all 1s ease;
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
@@ -697,22 +680,21 @@
 
 	.icon {
 		text-decoration: none;
+		display: inline-block;
+		text-decoration: none;
+		font-style: normal;
+		font-weight: normal;
+		font-family: FontAwesome;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
 	}
-
-		.icon:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing:antialiased;
-			-moz-osx-font-smoothing:grayscale;
-		}
 		
 		.icon > .label {
 			display: none;
+		}
+
+		.icon:hover {
+			color: #000;
 		}
 
 	.typeform-widget {
@@ -734,6 +716,7 @@
 		background: rgba(255,255,255,0.95);
 		height: 4em;
 		line-height: 4em;
+		text-decoration: none;
 	}
 	
 	body {
@@ -757,7 +740,7 @@
 	#logotext {
 		position: absolute;
 		left: 6em;
-		top: 1em;
+		top: 1.2em;
 		height: 4em;
 		line-height: 3em;
 		padding: 0 2em 0 0;
@@ -767,6 +750,10 @@
 		#logotext a {
 			font-size: 1.25em;
 		}
+
+		#logotext a:hover {
+			color: #AD0019;
+		}
 	
 	#nav {
 		position: absolute;
@@ -774,16 +761,19 @@
 		top: 0;
 		height: 4em;
 		line-height: 4em;
+		text-decoration: none;
 	}
 
 		#nav ul {
 			margin: 0;
+			text-decoration: none;
 		}
 
 			#nav ul li {
 				display: inline-block;
 				margin-left: 0.4em;
 				font-size: 0.9em;
+				text-decoration: none;
 			}
 			
 				#nav ul li a {
@@ -795,20 +785,32 @@
 					padding: 0 2em 0 2em;
 				}
 
-				# nav ul li a:hover
+				#nav ul li a:hover
 				{
 					color: #9B0000;
+					text-decoration: none;
 				}
+
+					#nav ul li ul li a {
+
+					}
+
+					#nav ul li ul li a:hover {
+						color: #9B0000;
+						text-decoration: none;
+					}
 
 			.dropotron {
 					background: #fff;
 					text-align: center;
 					margin: calc(-0.5em + 1px) 0 0 1px;
 					width: 10em;
+					text-decoration: none;
 				}
 
 			.dropotron li {
 				padding: 0;
+				text-decoration: none;
 			}
 
 				.dropotron li a, .dropotron li span {
@@ -818,6 +820,7 @@
 					-ms-transition: none;
 					transition: none;
 					border-top: solid 1px #f2f2f2;
+					text-decoration: none;
 					color: inherit;
 					display: block;
 					padding: 1em 1em;
@@ -825,16 +828,19 @@
 
 				.dropotron li:first-child > a, .dropotron li:first-child > span {
 					border-top: 0;
+					text-decoration: none;
 				}
 
 				.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
 					background: #ffffff;
 					color: #000000;
+					text-decoration: none;
 				}
 
 			.dropotron.level-0 {
 				font-size: 0.7em;
 				margin: 1em 1em 1em 1em;
+				text-decoration: none;
 			}
 
 
@@ -942,58 +948,6 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-
-/*********************************************************************************/
-/* Work                                                                          */
-/*********************************************************************************/
-
-	#work {
-	}
-	
-		#work .row.images {
-		}
-	
-			#work .row.images .image {
-				position: relative;
-				top: 0;
-				left: 0;
-				opacity: 1.0;
-			
-				-moz-transition: all 1s ease;
-				-webkit-transition: all 1s ease;
-				-o-transition: all 1s ease;
-				-ms-transition: all 1s ease;
-				transition: all 1s ease;
-				
-				-moz-transform: translateZ(0);
-				-webkit-transform: translateZ(0);
-				-o-transform: translateZ(0);
-				-ms-transform: translateZ(0);
-				transform: translateZ(0);
-			}
-		
-			#work .row.images.inactive {
-			}
-
-				#work .row.images.inactive .image {
-					opacity: 0;
-				}
-			
-				#work .row.images.inactive .image.from-left {
-					left: -14em;
-				}
-			
-				#work .row.images.inactive .image.from-right {
-					left: 14em;
-				}
-			
-				#work .row.images.inactive .image.from-top {
-					top: -7em;
-				}
-			
-				#work .row.images.inactive .image.from-bottom {
-					top: 7em;
-				}
 			
 /*********************************************************************************/
 /* Contact                                                                       */
@@ -1007,6 +961,7 @@
 		#contact .box {
 			position: relative;
 			bottom: 0;
+			text-decoration: none;
 		}
 		
 		#contact.inactive {
@@ -1014,6 +969,7 @@
 
 			#contact.inactive .box {
 				bottom: -30em;
+				text-decoration: none;
 			}
 
 /*********************************************************************************/
@@ -1026,7 +982,7 @@
 		line-height: 4em;
 		margin: 0;
 		background: #9B0000;
-		color: rgba(185,186,187,0.5);
+		color: #fff;
 		overflow: hidden;
 		font-color: white;
 	}
@@ -1059,7 +1015,7 @@
 					padding: 0.5em;
 				}
 		
-		#footer .menu {
+		#footer .copyright {
 			position: absolute;
 			right: 2em;
 			top: 0;
@@ -1068,8 +1024,21 @@
 			margin: 0;
 		}
 		
-			#footer .menu li {
-				font-size: 12pt;
+			#footer .copyright li {
+				font-size: 0.9em;
+			}
+
+			#footer ul.icons a {
+				margin-left: 0.4em;
+				margin-right: 0.4em;
+				margin-top: 0.4em;
+				font-family: FontAwesome;
+				font-size: 2em;
+				display: inline-block;
+			}
+
+			#footer ul.icons a:hover {
+				color: #fff;
 			}
 
 /*********************************************************************************/
@@ -1224,38 +1193,18 @@
 	}	
 
 /*********************************************************************************/
-/* Touch Mode                                                                    */
-/*********************************************************************************/
-
-	body.touch {
-	}
-	
-		body.touch .main {
-			background-attachment: scroll !important;
-		}
-		
-		body.touch .poptrox-popup {
-		}
-
-			body.touch .poptrox-popup .nav-next,
-			body.touch .poptrox-popup .nav-previous,
-			body.touch .poptrox-popup .closer {
-				opacity: 1.0 !important;
-			}
-
-/*********************************************************************************/
 /* Carousel Gallery                                                              */
 /*********************************************************************************/
 
 *{
   font-family: 'Avenir';
   font-size: 12px;
-  background: #FFFFF;
+  background: #fff;
 }
 
 .container {
-  width:700px;
-  top: 40px;
+  width:875px;
+  top: 10px;
   left: 300px;
   text-align: center;
 }
@@ -1264,15 +1213,16 @@
   margin: 0 auto;
   list-style: none;
   position: relative;
-  padding-top: 60px;
+  padding-top: 20px;
   width: 1000px;
   height: 650px;
+  margin-bottom: 3em;
 }
 
 #slider img {
   position: absolute;
-  width:800px;
-  height:500px;
+  width:1000px;
+  height:625px;
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top center, bottom center;
@@ -1282,32 +1232,30 @@
 	.capt {
 		position: absolute;
 		background: #fff;
-		top: 400px;
-		width: 800px;
+		top: 480px;
+		width: 1000px;
 		height: absolute;
 		text-align: center;
-		font-color: #000;
+		color: #000;
 		font-size: 1.2em;
 		padding: 1.5em 1.5em 1.5em 1.5em;
 		opacity: .9;
+
 	}
 
 	.photocred {
 		position: absolute;
-		background: #fff;
-		top: 580px;
-		width: 800px;
+		top: 680px;
+		width: 1000px;
 		font-style: italic;
 		height: absolute;
 		text-align: right;
-		font-color: #000;
+		color: #000;
 		font-size: 0.8em;
-		opacity: .9;
 	}
 
 
 #dots {
-  
   padding-left: 100px;
   text-align: center;
 }
@@ -1318,12 +1266,12 @@
   width:10px;
   height:10px;
   margin: 0 5px;
-  border:1px solid #000000;
+  border:1px solid #fff;
   cursor:pointer;
 }
 
 #dots li.active {
-  background:#000000;
+  background:#fff;
 }
 
 /*********************************************************************************/
@@ -1343,6 +1291,31 @@
   color: black;
   text-align: left;
 }
+
+/*Designer*/
+
+#designer {
+	float: center;
+	background-color: #9B0000;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 1.5em;
+}
+
+	#designer a {
+		font-family: "Avenir";
+		text-transform: uppercase;
+		font-size: 0.6em;
+		color: #CCC;
+		font-weight: 400;
+		text-decoration: none;
+		float: right;
+		letter-spacing: 0.3em;
+	}
+
+		#designer a:hover {
+			color: #9B0000;
+		}
 
 
 
