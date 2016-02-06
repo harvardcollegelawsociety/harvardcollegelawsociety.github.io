@@ -366,7 +366,7 @@
 				margin: 1em;
 				background: none;
 				border: solid 1px rgba(185,186,187,0.25);
-				color: inherit;
+				color: #616161;
 				border-radius: 0.5em;
 				outline: none;
 				line-height: 1.7em;
@@ -392,6 +392,7 @@
 				form select:focus,
 				form textarea:focus {
 					border-color: #616161 !important;
+					color: #000000;
 					line-height: 1.5em;
 					font-size: .8em;
 					letter-spacing: 1px;
