@@ -36,6 +36,7 @@
 	/* Main */
 
 		.main {
+			text-decoration: none;
 		}
 
 			.main.style1 {
@@ -117,6 +118,7 @@
 				padding: 1em 0 0 0;
 				margin: 0;
 				display: block;
+				text-decoration: none;
 			}
 			
 				#footer .menu li:first-child {

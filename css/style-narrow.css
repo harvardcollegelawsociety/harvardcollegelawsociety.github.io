@@ -10,6 +10,7 @@
 
 	body,input,textarea,select {
 		font-size: 13pt;
+		text-decoration: none;
 	}
 	
 	/* Main */
